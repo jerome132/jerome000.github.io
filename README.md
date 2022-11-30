@@ -1,3 +1,24 @@
+# 자신의 프로젝트를 built한 과정을 기술
+
+컴퓨터에 git 을 설치한 후 markdown 문법을 익히고,
+github에 jerome000.github.io 이름의 repo를 생성함.
+주소 복사 후 git clone으로 local과 연동하여 index.html 작성하고 
+git add, git commit, git branch, git push 과정을 통해 원격 저장소에 반영함.
+git push 과정에서 PAT가 필요하여 github settings 에서 생성하였고, 바탕화면 메모장에 저장해놓음.
+이후 git push 과정에서 토큰을 활용하여 성공적으로 push 을 마침.
+index.html 이 반영되어 github page가 생성됨.
+컴퓨터에 jekyll 을 설치하고 jekyll new . --force 명령을 통해 blog 디렉토리에 jekyll 설치함.
+jekyll serve로 localhost:4000 에 접속해 jekyll 사이트가 생성된 걸 확인하고 
+_posts 폴더에 새 파일을 만들어 일기 형식으로 게시물을 저장함.
+remote로 push하면서 항상 git status를 사용하여 놓치는 부분이 없도록 노력함.
+테마를 입히는 과정에서 많은 힘을 들였음.. 새 디렉토리 만드는 일만 20번 넘게 하느라 거의 12시간 소모함..
+원하는 테마를 입히려고 노력하였으나.. gem 파일에서인지 계속 오류가 나고 실패하여 lanyon 테마로 타협을 봄.
+git clone 으로 테마를 받아와 적용시킴. 권한 오류가 계속 떠서 검색 결과 나온 git remote 명령으로 연동된 주소를 다시 옮김.
+댓글 기능을 추가하고자 disqus 사이트에 로그인 하여 jerome000 사이트로 page를 만들고 universal code 를 찾느라 애를 먹음..
+setting에서 열심히 찾은 결과 작은 창에서 universal code를 찾냐고 물어봐서 울먹이면서 네.. 대답함..
+universal code를 레이아웃의 포스트에 추가하고 page url, identifier 이 포함된 주석을 주석해제함.
+이후 이전에 적어놓았던 일기 등에 댓글 기능 추가함.
+
 # Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
