@@ -33,6 +33,12 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+comment:
+  provider: "disqus"
+  disqus:
+    shortname:  "jerome000"
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
