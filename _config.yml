@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: amateur programmer dong's blog
+title: Amateur programmer Dong's blog
 email: jerome000@kookmin.ac.kr
 description: >- # this means to ignore newlines until "baseurl:"
   I'm 21 years old. My name is seunghwan dong. 
